@@ -24,7 +24,15 @@ Share the :heart: !
 > An implementation of [Material Design Picker](https://www.google.com/design/spec/components/pickers.html)
 components in vanilla CSS, JS, and HTML
 
-##Documentation
+## NOTICE
+This is a mod of the original `md-date-time-picker` package to allow a combined date and time field.
+This package is published to the [@ngageoint](https://github.com/ngageoint) GitHub packages for use by [MAGE Server](https://github.com/ngageoint/mage-server).
+This package is deprecated and no longer under maintenance.
+
+The files in this repository are copies from [MAGE Server](https://github.com/ngageoint/mage-server/tree/master/web-app/src/ng1/vendor/md-date-time-picker).
+The build/bundling of the source files no longer works correctly, so any modifications to the source would require repairing the bundling process.
+
+## Documentation
 
 The Documentation is at [https://puranjayjain.github.io/md-date-time-picker](https://puranjayjain.github.io/md-date-time-picker)
 
