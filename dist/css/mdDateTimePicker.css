@@ -85,12 +85,16 @@
     vertical-align: top;
     height: 100%; }
 
+.mddtp-picker-datetime .mddtp-picker__left,
 .mddtp-picker-date .mddtp-picker__left {
   left: 4px; }
 
+.mddtp-picker-datetime .mddtp-picker__right,
 .mddtp-picker-date .mddtp-picker__right {
   right: 4px; }
 
+.mddtp-picker-datetime .mddtp-picker__left,
+.mddtp-picker-datetime .mddtp-picker__right,
 .mddtp-picker-date .mddtp-picker__left,
 .mddtp-picker-date .mddtp-picker__right {
   position: absolute;
@@ -102,6 +106,8 @@
   min-width: 48px;
   top: 4px;
   border-radius: 50%; }
+  .mddtp-picker-datetime .mddtp-picker__left:hover,
+  .mddtp-picker-datetime .mddtp-picker__right:hover,
   .mddtp-picker-date .mddtp-picker__left:hover, .mddtp-picker-date .mddtp-picker__left:hover, .mddtp-picker-date .mddtp-picker__left:focus, .mddtp-picker-date .mddtp-picker__left:focus,
   .mddtp-picker-date .mddtp-picker__right:hover,
   .mddtp-picker-date .mddtp-picker__right:hover,
@@ -199,23 +205,29 @@
   .mddtp-picker__years--invisible {
     display: none; }
 
+.mddtp-picker-datetime .mddtp-picker__header,
 .mddtp-picker-time .mddtp-picker__header {
   vertical-align: middle;
   width: 125px; }
   .mddtp-picker-time .mddtp-picker__header .mddtp-picker__title {
     text-align: right;
     font-size: 0; }
+    .mddtp-picker-datetime .mddtp-picker__header .mddtp-picker__title span,
     .mddtp-picker-time .mddtp-picker__header .mddtp-picker__title span {
       font-size: 45px;
       font-weight: 400;
       line-height: 48px;
       margin: 0 2px; }
+  .mddtp-picker-datetime .mddtp-picker__header .mddtp-picker__subtitle
   .mddtp-picker-time .mddtp-picker__header .mddtp-picker__subtitle {
     margin-top: 8px;
     text-align: center; }
+    .mddtp-picker-datetime .mddtp-picker__header .mddtp-picker__subtitle div
     .mddtp-picker-time .mddtp-picker__header .mddtp-picker__subtitle div {
       margin-top: 2px; }
 
+.mddtp-picker-datetime .mddtp-picker__circularView,
+.mddtp-picker-datetime .mddtp-time__circularHolder,
 .mddtp-picker-time .mddtp-picker__circularView,
 .mddtp-picker-time .mddtp-time__circularHolder {
   -webkit-tap-highlight-color: transparent; }
@@ -227,6 +239,12 @@
   margin: 20px;
   border-radius: 50%;
   background-color: #eeeeee; }
+.mddtp-picker-datetime .mddtp-picker__circularHolder {
+  margin-top: auto;
+  margin-bottom: 16px;
+  margin-left: 0px;
+  margin-right: 16px;
+}
 
 .mddtp-picker__circularView {
   position: absolute;
@@ -1454,6 +1472,7 @@
         margin-left: 16px; }
     .mddtp-picker.mddtp-picker-time .mddtp-picker__body {
       padding-top: 20px; }
+    .mddtp-picker.mddtp-picker-datetime .mddtp-picker__circularHolder,
     .mddtp-picker.mddtp-picker-time .mddtp-picker__circularHolder {
       margin-top: 0; } }
 
@@ -1484,6 +1503,7 @@
         margin-left: 16px; }
     .mddtp-picker.mddtp-picker-time .mddtp-picker__body {
       padding-top: 20px; }
+    .mddtp-picker.mddtp-picker-datetime .mddtp-picker__circularHolder,
     .mddtp-picker.mddtp-picker-time .mddtp-picker__circularHolder {
       margin-top: 0; } }
 
@@ -1513,6 +1533,7 @@
       margin-left: 16px; }
   .mddtp-picker--portrait.mddtp-picker-time .mddtp-picker__body {
     padding-top: 20px; }
+  .mddtp-picker--portrait.mddtp-picker-datetime .mddtp-picker__circularHolder,
   .mddtp-picker--portrait.mddtp-picker-time .mddtp-picker__circularHolder {
     margin-top: 0; }
 
