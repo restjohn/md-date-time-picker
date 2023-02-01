@@ -26,7 +26,7 @@ components in vanilla CSS, JS, and HTML
 
 ## NOTICE
 This is a mod of the original `md-date-time-picker` package to allow a combined date and time field.
-This package is published to the [@ngageoint](https://github.com/ngageoint) GitHub packages for use by [MAGE Server](https://github.com/ngageoint/mage-server).
+This package is published for use by [MAGE Server](https://github.com/ngageoint/mage-server).
 This package is deprecated and no longer under maintenance.
 
 The files in this repository are copies from [MAGE Server](https://github.com/ngageoint/mage-server/tree/master/web-app/src/ng1/vendor/md-date-time-picker).
