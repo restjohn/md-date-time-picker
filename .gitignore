@@ -39,3 +39,6 @@ jspm_packages
 
 # intellij
 .idea
+
+md-date-time-picker-*.tgz
+ngageoint-md-date-time-picker-*.tgz

@@ -1,5 +1,5 @@
 {
-  "name": "md-date-time-picker",
+  "name": "@ngageoint/md-date-time-picker",
   "version": "2.3.0",
   "description": "An implementation of the Material Design Picker components in vanilla CSS, JS and HTML",
   "keywords": [
@@ -15,6 +15,9 @@
     "input"
   ],
   "main": "dist/js/mdDateTimePicker.js",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "gulp": "gulp",
@@ -78,7 +81,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/puranjayjain/md-date-time-picker.git"
+    "url": "git+https://github.com/restjohn/md-date-time-picker.git"
   },
   "bugs": {
     "url": "https://github.com/puranjayjain/md-date-time-picker/issues"
